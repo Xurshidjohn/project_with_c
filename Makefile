@@ -10,7 +10,7 @@ CFLAGS = -Wall -Wextra -g
 SRCS = main.c user.c
 
 # Target executable
-TARGET = hello
+TARGET = hello.o
 
 # Default target
 all: $(TARGET)

@@ -9,12 +9,12 @@ typedef struct {
   int secret_code;
 } User;
 
-void create_user(char * uname, char * pass, int secret_code);
+User create_user(char * uname, char * pass, int secret_code);
 void __doc__(User user);
 void setUname(User user, char * name);
 void setPass(User user, char * pass);
 void setSecretCode(User, int secret_code);
-void getUname(User user);
-void getPass(User user);
-void getSecretCode(User user);
+char * getUname(User user);
+char * getPass(User user);
+int getSecretCode(User user);
 #endif // !USER_H

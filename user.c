@@ -2,7 +2,6 @@
 #include "headers/user.h"
 #include <string.h>
 
-
 void __doc__(User user) {
   printf("Username: %s\n", user.uname);
   printf("Password: %s\n", user.pass);
